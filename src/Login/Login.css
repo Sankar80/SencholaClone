@@ -1,0 +1,44 @@
+.ligin-password{
+    position: relative;
+}
+.ligin{
+    position: absolute;
+    top: 390px;
+    left: 500px;
+    color: gray;
+} 
+.signup-forget{
+    margin-left: 250px;
+    font-size: small;
+    font-weight: 500;
+}
+
+/* @media (max-width:568px) {
+  
+    .login-input-password{
+        position: relative;
+    }
+    .login-input-icon{
+        position: absolute;
+        top: 460px;
+        left: 340px;
+    }  
+
+} */
+@media (max-width:400px) {
+  
+    .ligin-password{
+        position: relative;
+    }
+    .ligin{
+       position: absolute;
+       top: 350px;
+       left: 330px; 
+    }  
+    .signup-forget{
+        margin-left: 240px;
+        font-size: small;
+        font-weight: 500;
+    }
+
+}

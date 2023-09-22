@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import  Navbar from './Components/Navbar';
 import './App.css';
+import Signup from './Components/Signup';
+import WhySenchola from './Components/WhySenchola';
+import { Route,Routes } from 'react-router-dom';
+import Contact from './Components/Contact'
+import Form from './Form/Form'
+import Home from './Home/Home'
+import Login from './Login/Login';
+import Footer from './Components/Footer';
+import Servicepage from './Service/Servicepage';
+import Aboutus from './About us';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      < Navbar />
+      <Routes>
+        <Route path='/whysenchola' element={<WhySenchola />}/>
+        <Route path='/signup' element={<Signup />}/>
+        <Route path='/home' element={<Home />}/>
+        <Route path='/form' element={<Form />}/>
+        <Route path='/contact' element={<Contact />}/>
+        <Route path='/login' element={<Login />}/>
+        <Route path='/services' element={<Servicepage />}/>
+        {/* <Route path='/about' element={<Aboutus />}/> */}
+      </Routes>
+      <Footer /> 
+     
     </div>
   );
 }

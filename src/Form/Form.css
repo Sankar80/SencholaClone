@@ -1,0 +1,123 @@
+.sen-form-all{
+    background-color:#d9d9d9;
+    border-radius: 10px;
+}
+
+.sen-names{
+    display: flex;
+    /* padding-left: 200px; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sen-firstname{
+   /*  margin-left: -250px; */
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.sen-last-name{
+   /*  margin-left: -260px; */
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.sen-full-first-name-clz{
+    margin-bottom: 20px;
+}
+#firstname , #lastname{
+    padding-left: 10px;
+    padding-right: 180px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 0px;
+    box-shadow: 
+    0 0 0 2px rgb(255, 255, 255),
+    0.1em 0.1em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    font-size: smaller;
+    margin-bottom: 20px;
+
+}
+.sen-rd{
+    color: red;
+}
+/* .sen-education-qualification{
+    margin-left: -160px;
+}
+.sen-eml{
+    margin-left: -240px;
+}
+.sen-ohone{
+    margin-left: -220px;
+} */
+.sen-bat{
+    margin-right: 60px;
+}
+
+.sen-dob{
+    position: relative;
+}
+.sen-dob-lab{
+    border: 0px;
+}
+.sen-dob-bttn{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    border: 1px;
+    background-color:rgb(214, 208, 208);
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.sen-dofb{
+    margin-right: -60px;
+}
+.Sen-Upload-File{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    border: none;
+    background-color:rgb(214, 208, 208);
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: small;
+    padding: 3px;
+}
+
+.sen-Domain{
+    margin-right: 80px;
+}
+.sen-KYC{
+    /* margin-left: 10px; */
+    margin-right: -90px;
+}
+.sen-lorm{
+    color: #d9d9d9;
+}
+.sen-Resume{
+    margin-right: -40px;
+}
+.sen-DOFBB{
+    font-size: small;
+    padding: 3px;
+}
+.sen-REGISTER{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #198754;
+    border-radius: 40px;
+    border: none;
+    font-weight: 900;
+}
+.sen-SENCHOLA-head-UNIVERSITY{
+    color: #198754;
+    padding-top: 60px;
+    font-weight: 900;
+}
+.sen-USER-FORM{
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+

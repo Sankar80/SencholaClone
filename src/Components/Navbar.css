@@ -1,0 +1,99 @@
+.active{
+    /* background-color: green; */
+    color:black;
+} 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+}
+
+nav .title{
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black; 
+    margin-top: -1px;
+}
+
+nav ul{
+    display: flex; 
+}
+nav ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    padding: 0.4rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+/* nav ul li a:not(.active):hover{
+    background-color: green;
+    color: whitesmoke;
+}
+ */
+nav .menu{
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+nav .menu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
+
+@media (max-width: 480px) {
+    nav .menu{
+        display: flex;
+    }
+    nav .menu span{
+        background-color: black;
+    }
+    nav{
+        flex-direction: column;
+        align-items: start;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+        cursor: pointer;
+    }
+    nav ul.open{
+        display: flex;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a {
+        margin: 0.2rem 0.5rem;
+    }
+    .university-navbar-login{
+        margin-left: 100px;
+    }
+    .university-navbar-signup{
+        margin-left: 95px;
+    }
+}

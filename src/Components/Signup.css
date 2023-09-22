@@ -1,0 +1,134 @@
+.signup-heading{
+    font-weight: bold;
+}
+/* .signup-input{
+    width: 50px;
+    box-shadow: 1px 1px 1px 1px rgb(205, 205, 205);
+    font-size: small; 
+    font-weight: bold;
+} */
+.signup-input{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(205, 205, 205);
+    font-size: small; 
+    font-weight: 500;
+    width: 100%;
+    height: 40px;
+    text-indent: 1rem;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.signup-input-password{
+    position: relative;
+}
+.signup-input-icon{
+    position: absolute;
+    top: 483px;
+    left: 490px;
+    color: gray;
+}  
+.signup-required{
+    font-weight: bold;
+}
+.signup-required::after { 
+    content:"  *"; 
+    color: red;
+}
+.signup-policy{
+    text-indent: 1rem;
+    font-size: small;
+    font-weight: 500;
+}
+.signup-button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.signup-horizontal-line-container {
+    display: flex;
+    align-items: center;
+}
+  
+.signup-horizontal-line {
+    flex-grow: 1;
+    border: none;
+    border-top: 2px solid #000; /* Adjust the color and thickness as needed */
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+  
+.signup-line-text {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #000; /* Adjust the text color as needed */
+}
+.signup-para{
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 3px gray; 
+    width: 150px;
+    color: black;
+    background-color:whitesmoke;
+    opacity: 0.7;
+    font-size: small;
+    font-weight: 500;
+    text-indent: 5px;
+    padding: 0px;
+    margin-top: 30px;
+}
+.signup-icons{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+.signup-account{
+  font-weight: 500;
+  margin-top: 10px;
+}
+.signup-a{
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+  
+    .signup-input-password{
+        position: relative;
+    }
+    .signup-input-icon{
+        position: absolute;
+        top: 565px;
+        left: 290px;
+    } 
+    .signup-icons{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    } 
+    .signup-para{
+    
+    }
+    .signup-account{
+        margin-bottom: 250px;
+    }
+    
+}
+
+@media (max-width:400px) {
+  
+    .signup-input-password{
+        position: relative;
+    }
+    .signup-input-icon{
+       position: absolute;
+       top: 442px;
+       left: 330px; 
+    }  
+    .signup-icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+     }
+     .signup-img{
+        margin-top: -130px;
+     }
+
+}

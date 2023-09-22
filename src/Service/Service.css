@@ -1,0 +1,193 @@
+
+*{
+
+font-family: 'Montserrat', sans-serif;
+
+
+}
+.caro-contain{
+    max-width: 1600px;
+    background-size: cover;
+
+}
+.row-pic{
+    background-size: cover; 
+    height: 100%;
+    height: 2000px;
+    background-image: url('./Img/Rectangle\ 4592.png'); 
+}
+.text-icon{
+    font-size: 70px;
+    width: 100px;
+    align-items: center;
+    border-radius: 10px;
+}
+.icona{
+    background: rgb(229, 223, 168);
+    color: rgb(248, 203, 3);
+    padding-left: 10px;
+    padding-bottom: 15px;   
+}
+.iconb{
+    background: rgb(206, 229, 240);
+    color: rgb(51, 157, 218);
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.iconc{
+    background: rgb(239, 208, 240);
+    color: rgb(156, 19, 197);
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.logo1{
+    font-size: 18px;
+    background-color: rgb(255, 243, 220);
+    color:rgb(255, 217, 0);
+    border-radius: 50px;
+    padding: 5px;
+    padding-top: 4px;
+    margin-right: 5px;
+}
+.logo2{
+    font-size: 18px;
+    background-color: rgb(238, 208, 229);
+    color:rgb(255, 0, 157);
+    border-radius: 50px;
+    padding: 5px;
+    padding-top: 4px;
+    margin-right: 5px;
+}
+.logo3{
+    font-size: 18px;
+    background-color:rgb(227, 238, 248);
+    color:rgb(25, 134, 223);
+    border-radius: 50px;
+    padding: 5px;
+     padding-top: 4px;
+    margin-right: 5px;
+}
+.view-more{
+    margin-left: 200px;
+    color: green;
+    font-weight: 500;
+}
+.view-btn{
+    margin-top: 40px;
+    margin-left: 450px;
+    border-radius: 20px;
+}
+
+
+.logo-card1{
+    margin-top: -460px;
+    border-radius: 20px;
+    box-shadow: 9px 9px 5px rgb(243, 240, 240);
+    opacity: 0.7;
+    background-color: white;
+
+    font-size: small;
+    width: 200px;
+    padding: 20px;
+}
+.logo-card2{
+    margin-top: -130px;
+    margin-left: 420px;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 0.7;
+    box-shadow: 9px 9px 5px rgb(243, 240, 240);
+    width: 200px;
+    padding: 20px;
+    font-size: small;
+    font-style: bold;
+}
+
+.card-style{
+    background-color: rgb(225, 220,220,0.8);
+    border-radius: 25px;
+}
+.service-card1{
+    margin-top: 50px;
+    padding: 30px; 
+    text-align: justify;
+}
+.service-card2{
+    padding: 30px;
+    text-align: justify; 
+}
+.service-card3{
+    margin-top: 50px;
+    padding: 30px; 
+    text-align: justify;
+}
+
+.card-text{
+    font-size: 16px;
+}
+.service-p{
+    margin-left: 0px;
+    width:500px;
+    margin-left:230px;
+    margin-top:40px
+}
+
+@media (max-width: 400px) {
+    .logo-card1 {
+      /* margin-top: 0px;
+      width: 150px;
+      height: 100px;
+      font-size: 10px; */
+      display: none;
+    }
+    .logo-card2{
+      display: none;
+    }
+    .logo1{
+        font-size: small;
+    }
+    .logo2{
+        font-size: small;
+    }
+    .logo3{
+        font-size: small;
+    }
+    .text-icon{
+        font-size:20px;
+        width:50px
+    }
+    .card-style{
+        font-size: 5px;
+        width: 300px;
+    }
+    .row-pic{
+        /* background-size: cover;  */
+        height: 100%;
+        min-height: 2150px;
+        background-image: url('./Img/Rectangle\ 4592.png'); 
+        padding-right: 100px;
+    }
+    .card-style{
+        margin-left: -35px;
+    }
+    .service-card1{
+        margin-top: -30px;
+    }
+    .service-card3{
+        margin-top: -50px;
+    }
+    .service-p{
+        width: 300px;
+        text-align: justify;
+        margin-left: -70px;
+    }
+    .home-p{
+        width: 300px;
+        text-align: justify;
+        margin-left: 0px;
+    }
+    .home-s{
+        text-align: center;
+    }
+    
+  }
